@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://callumjonesphd.wordpress.com/",
+    "link": "https://callumjonesphd.wordpress.com/",
+    "text": "Home"
+  },
+  "text": {
+    "more": "",
+    "intro": "Australian far-right organisations and individuals present in Time State 3 (TS3). TS3 encompasses organisations and individuals present between 1980-2000.\nPlease feel free to explore the network by directly interacting with it. \n You can use the search bar below to search for nodes by name. When you select a node in the network please refer to the pop-up panel on the right-hand side for details about that node, including its organisational form, ideology, centrality scores, modularity and all connected nodes.", 
+    "title": "Australian far-right network (Time State 3)"
+  },
+  "legend": {
+    "edgeLabel": "Connection",
+    "colorLabel": "Ideology",
+    "nodeLabel": "Far-right organisations and individuals"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 3,
+      "minEdgeSize": 3,
+      "minNodeSize": 1,
+      "maxNodeSize": 10
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
